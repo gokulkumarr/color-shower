@@ -1,0 +1,37 @@
+.app-container {
+  display: grid;
+  place-content: center;
+  margin-top: 30px;
+}
+
+.header-text {
+  padding: 12px 0;
+}
+
+.text-container {
+  margin-top: 20px;
+}
+
+.text-container input {
+  border-radius: 4px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  height: 26px;
+  width: 66%;
+  margin-right: 5%;
+}
+
+.text-container button {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;
+  height: 34px;
+  padding: 4px;
+}
+
+.color-box-wrapper {
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
